@@ -1,2 +1,2 @@
-# HOMEWORKS_
-Course_V_Ksendzov
+# HOMEWORKS
+ Course by V.Ksendzov
