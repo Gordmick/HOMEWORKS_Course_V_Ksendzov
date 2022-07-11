@@ -1,1 +1,2 @@
-# HOMEWORKS_Course_V_Ksendzov
+# HOMEWORKS_
+Course_V_Ksendzov
