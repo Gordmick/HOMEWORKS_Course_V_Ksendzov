@@ -1,4 +1,4 @@
-# HOMEWORK 2
+# HomeWork 2
 
 ## _Linux terminal (GitHub) commands_
 
