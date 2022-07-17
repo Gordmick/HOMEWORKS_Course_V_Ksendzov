@@ -1,4 +1,4 @@
-# HOMEWORK 1
+# HomeWork 1
 ## _Linux terminal (Git Bash) commands_
 
 | TASK | SOLUTION |
