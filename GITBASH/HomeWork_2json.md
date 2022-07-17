@@ -5,7 +5,7 @@
 | TASK | SOLUTION |
 | ------ | ------ |
 | 1. Создать внешний репозиторий c названием JSON | GitHub -> Create New Repository JSON |
-| 2. Клонировать репозиторий JSON на локальный компьютер | git clone https://github.com/sergnn/JSON.git |
+| 2. Клонировать репозиторий JSON на локальный компьютер | git clone https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/edit/main/GITBASH/HomeWork_2json.md |
 | 3. Внутри локального JSON создать файл “new.json” | cd JSON && touch new.json |
 | 4. Добавить файл под гит | git add new.json |
 | 5. Закоммитить файл | git commit -m "newfile" |
@@ -31,11 +31,11 @@ vim new.json
 
 ```sh
 {
-    "Film" : "Harry Potter",
-    "TV series" : "University",
-    "Food" : "dumplings",
-    "Season" : "summer",
-    "Country" : "USA"
+"Favorite cinema": "Interstellar",
+"favorite series": "Game of Thrones",
+"favorite food": "barbecue",
+"favorite season": "summer",
+"country you would like to visit": "Sweden"
 }
 ```
 
@@ -44,7 +44,16 @@ vim new.json
 ```sh
 vim skills.json
 {
-    "Skills" : "Hard and soft skills"
+"Skills1": "GIT",
+"skills2": "SDLC",
+"skills3": "STLC",
+"skills4": "SQL",
+"skills5": "Charles",
+"skills6": "Postman",
+"skills7": "JS",
+"skills8": "Linux",
+"skills9": "Jmeter",
+"skills10": "ADB"
 }
 ```
 
@@ -54,20 +63,24 @@ vim skills.json
 | 13. На веб интерфейсе создать файл bug_report.json | GitHub -> add file -> create new file -> bug_report.json |
 | 14. Сделать Commit changes (сохранить) изменения на веб интефейсе | GitHub -> Commit changes |
 | 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON | GitHub -> bug_report.json -> edit this file |
+```sh
 
-> **{ 
-        "Summary" : "In CTR (Click through ratio) ‘Total’ row calculation is wrong",
-        "Product" : "Example product",
-"Version" : 1.0,
-         "Platform" : "PC",
-          "Version" : "Windows 2000",
-          "Status" : "NEW",
-         "Severity" : "Major",
-         "Priority" : "P1",
-         "Component" : "Publisher stats",
-        "Steps to reproduce" : 1,
-          "Expected result" : "wow"
-         }**
+{
+"Summary": "Login page The button`register` not firing after clicking on the page",
+"Project": "Shop H&M",
+"Component": "Registration form",
+"Version": "5,64",
+"Severity": "Critical",
+"Priority": "High",
+"Status": "Open",
+"Author": "Mikhail Gordievskiy",
+"Steps for reproduce": "Open Login page, clicking the buttom `register`",
+"Result":"The page does not go to the registration page",
+"Expected Result":"The page goes to the registration page"
+}
+```
+
+
 | TASK | SOLUTION |
 | ------ | ------ |
 | 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  | GitHub -> commit changes |
