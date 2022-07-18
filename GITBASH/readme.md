@@ -1,4 +1,4 @@
 # Git Bash
 <div>
-<img src="https://www.stanleyulili.com/assets/images/posts/2019-08-13-install-git-bash/featured-image.jpg" title="Git" **alt="Git" width="500" height="250"/>&nbsp;
+<img src="https://miro.medium.com/max/1400/1*A5zK5mklkvqFAA04vtskcg.png" **alt="Git" width="500" height="220"/>&nbsp;
 </div>
