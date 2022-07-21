@@ -218,7 +218,7 @@ const checkAge = function(age) {
    let agePrompt = prompt('Enter age')
    checkAge(agePrompt)
    ```
-   ***// Привязанная верстка***
+   ***// Привязанная верстка к заданию 4***\***
    ```html
 <!DOCTYPE html>
 <html lang="en">
