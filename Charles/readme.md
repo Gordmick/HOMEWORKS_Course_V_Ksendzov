@@ -3,12 +3,13 @@
 
 
 ## HomeWork
-Сфокусироваться на ниже перечисленных запросах
 ### Ex 0: 
-
+Сфокусироваться на ниже перечисленных запросах
+![Filtr](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_1.png)
 Protocol: http
 IP: 162.55.220.72
 Port: 5005
+
 
 ### Ex 1: 
 Method: GET
