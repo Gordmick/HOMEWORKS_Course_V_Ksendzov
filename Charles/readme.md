@@ -156,8 +156,8 @@ Task:
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month  
  ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response  
 
-![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_6.png)
-![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_6.png)
+![](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex6.png)
+
 
 ### Ex 7. Все настройки Charles выгрузить в GitHub
 
