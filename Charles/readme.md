@@ -5,11 +5,12 @@
 ## HomeWork
 ### Ex 0: 
 Сфокусироваться на ниже перечисленных запросах
-![Filtr](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/EX0.png)
-Protocol: http
-IP: 162.55.220.72
-Port: 5005
 
+Protocol: http  
+IP: 162.55.220.72  
+Port: 5005  
+
+![Filtr](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/EX0.png)
 
 ### Ex 1: 
 Method: GET
