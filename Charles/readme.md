@@ -127,7 +127,7 @@ Task:
  ⁃ Подменить salary в request  
  ⁃ Подменить (salary * 2) в response  
 
-![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_5.png)
+![break](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex5.png)
 ![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_5.png)
 
 ### Ex 6:  
