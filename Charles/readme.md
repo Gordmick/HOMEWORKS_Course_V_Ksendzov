@@ -12,12 +12,12 @@ Port: 5005
 
 ![Filtr](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/EX0.png)
 
-### Ex 1: 
-Method: GET
-EndPoint: /get_method   
-request url params:    
-name: str  
-age: int
+### Ex 1:   
+Method: GET  
+EndPoint: /get_method     
+request url params:      
+name: str    
+age: int  
 
 response:
 ```sh
@@ -33,13 +33,13 @@ Task:
 
 ![break](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex01.png)
 
-### Ex 2:
-Method: POST
-EndPoint: /user_info_3
-request form data: 
- name: str
- age: int
- salary: int
+### Ex 2:  
+Method: POST  
+EndPoint: /user_info_3  
+request form data:   
+ name: str  
+ age: int  
+ salary: int  
 
 response:  
 ```sh
@@ -57,12 +57,12 @@ Task:
 
 
 ### Ex 3:
-Method: GET
-EndPoint: /object_info_1
-request url params: 
- name: str
- age: int
- weight: int
+Method: GET  
+EndPoint: /object_info_1  
+request url params:   
+ name: str  
+ age: int  
+ weight: int  
 
 response:  
 ```sh
@@ -80,14 +80,15 @@ Task:
 
 
 ### Ex 4:
-Method: GET
-EndPoint: /object_info_3
-request url params: 
- name: str
- age: int
- salary: int
+Method: GET  
+EndPoint: /object_info_3  
+request url params:   
+ name: str  
+ age: int  
+ salary: int  
 
 response: 
+```sh
 {'name': name,
           'age': age,
           'salary': salary,
@@ -98,6 +99,7 @@ response:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
+```
 
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
@@ -130,13 +132,13 @@ Task:
 ![break](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex5.png)
 ![rew](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex51.png)
 
-### Ex 6:  
+### Ex 6:    
 Method: POST  
-EndPoint: /user_info_2  
-request form data:   
- name: str  
- age: int  
- salary: int  
+EndPoint: /user_info_2   
+request form data:    
+ name: str    
+ age: int    
+ salary: int    
 
 response:  
 ```sh
