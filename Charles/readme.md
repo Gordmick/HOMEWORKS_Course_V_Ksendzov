@@ -5,7 +5,7 @@
 ## HomeWork
 ### Ex 0: 
 Сфокусироваться на ниже перечисленных запросах
-![Filtr](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_1.png)
+![Filtr](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/EX0.png)
 Protocol: http
 IP: 162.55.220.72
 Port: 5005
