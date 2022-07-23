@@ -19,11 +19,13 @@ request url params:
 name: str  
 age: int
 
-response:  
+response:
+```sh
 [  
     “Str”,  
     “Str”   
 ]
+```
 
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
@@ -40,15 +42,16 @@ request form data:
  age: int
  salary: int
 
-response: 
+response:  
+```sh
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
-
+```
 Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
  ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
 
 ![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_2.png)
@@ -62,14 +65,16 @@ request url params:
  age: int
  weight: int
 
-response: 
+response:  
+```sh
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
+```
 
 Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
  ⁃ Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
 
 ![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_3.png)
@@ -97,45 +102,47 @@ response:
           }
 
 Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
-- Сделать через Charles так, чтобы сервер вернул 500 код.
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
+- Сделать через Charles так, чтобы сервер вернул 500 код.  
 - Сделать через Charles так, чтобы сервер вернул 405 код.
 
 ![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_4.png)
 ![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_4.png)
 
 ### Ex 5:
-Method: GET
-EndPoint: /object_info_4
-request url params: 
- name: str
- age: int
- salary: int
+Method: GET  
+EndPoint: /object_info_4  
+request url params:   
+ name: str  
+ age: int  
+ salary: int  
 
-response: 
+response:  
+```sh
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
+```
 
-
-Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
- ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
- ⁃ Подменить salary в request
- ⁃ Подменить (salary * 2) в response
+Task:  
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
+ ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.  
+ ⁃ Подменить salary в request  
+ ⁃ Подменить (salary * 2) в response  
 
 ![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_5.png)
 ![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_5.png)
 
-### Ex 6:
-Method: POST
-EndPoint: /user_info_2
-request form data: 
- name: str
- age: int
- salary: int
+### Ex 6:  
+Method: POST  
+EndPoint: /user_info_2  
+request form data:   
+ name: str  
+ age: int  
+ salary: int  
 
-response: 
+response:  
+```sh
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
@@ -145,12 +152,12 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
+```
 
-
-Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
- ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
- ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+Task:  
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
+ ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month  
+ ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response  
 
 ![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_6.png)
 ![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_6.png)
