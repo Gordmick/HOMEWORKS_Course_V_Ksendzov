@@ -104,8 +104,7 @@ Task:
 - Сделать через Charles так, чтобы сервер вернул 500 код.  
 - Сделать через Charles так, чтобы сервер вернул 405 код.
 
-![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_4.png)
-![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_4.png)
+![](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex4.png)
 
 ### Ex 5:
 Method: GET  
