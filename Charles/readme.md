@@ -28,11 +28,10 @@ response:
 ```
 
 Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)  
  ⁃ Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 
-![break](https://github.com/SereJaPWNZ/Charles/blob/master/assert/break_1.png)
-![rew](https://github.com/SereJaPWNZ/Charles/blob/master/assert/rew_1.png)
+![break](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/Ex1.png)
 
 ### Ex 2:
 Method: POST
