@@ -156,3 +156,4 @@ ORDER by created_on;
 SELECT Id, name, created_on FROM students
 ORDER by created_on DESC;
 ```
+[Link SQL File](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/SQL/HW_1_.sql)
