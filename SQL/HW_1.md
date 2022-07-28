@@ -1,4 +1,4 @@
-![](https://migsoft.ru/upload/iblock/ef4/ef44f3506c827eef392c01df91453755.png)
+![](https://timeweb.com/ru/community/article/6a/6aec84e99f708bc438b913c3089e18ae.png)
 
 # _HOMEWORK 1 _
 ## in Postgre
