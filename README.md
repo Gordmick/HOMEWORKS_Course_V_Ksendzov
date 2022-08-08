@@ -5,7 +5,3 @@
   <img src="https://media.giphy.com/media/l2SpZkQ0XT1XtKus0/giphy.gif" width="200"/>
 </div>
   
-
-
-
-
