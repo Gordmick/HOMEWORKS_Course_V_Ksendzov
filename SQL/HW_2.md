@@ -212,7 +212,7 @@ select * from employee_salary;
 ## Поменять тип столба role_name с int на varchar(30)
 ## Наполнить таблицу roles 20 строками:
 
-id     | role_name   
+ id     | role_name   
  ------ | ------   
  1 | Junior Python developer   
  2 | Middle Python developer   
@@ -229,6 +229,11 @@ id     | role_name
  13 | Project Manager
  14 | Designer
  15 | HR
+ 16 | CEO
+ 17 | Sales manager
+ 18 | Sales manager
+ 19 | Middle Automation QA engineer
+ 20 | Senior Automation QA engineer
 ```sql
 create table roles(
 id  serial primary key,
