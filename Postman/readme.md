@@ -6,4 +6,3 @@
 <div>
 <img src="https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Postman/Images/stepik-certificate-120679-6cb73f4.png";
 </div>
-
