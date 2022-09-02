@@ -138,7 +138,23 @@ select * from salary;
 - employee_id. Int, not null, unique
 - salary_id. Int, not null
 ## Наполнить таблицу employee_salary 40 строками:
-- в 10 строк из 40 вставить несуществующие employee_id
+- в 10 строк из 40 вставить несуществующие employee_id 
+ 
+ id     | employee_id | salary   
+ ------ | ------ | ------   
+ 1  | 3   | 7   
+ 2  | 1   | 4   
+ 3  | 5   | 9  
+ 4  | 40  | 13   
+ 5  | 23  | 4   
+ 6  | 11  | 2   
+ 7  | 52  | 10   
+ 8  | 15  | 13   
+ 9  | 26  | 4   
+ 10 | 16  | 1   
+ 11 | 33  | 7  
+ 1  | 3   | 7   
+
 ```sql
 create table employee_salary(
 id serial primary key,
@@ -196,6 +212,23 @@ select * from employee_salary;
 ## Поменять тип столба role_name с int на varchar(30)
 ## Наполнить таблицу roles 20 строками:
 
+id     | role_name   
+ ------ | ------   
+ 1 | Junior Python developer   
+ 2 | Middle Python developer   
+ 3 | Senior Python developer    
+ 4 | Junior Java developer    
+ 5 | Middle Java developer      
+ 6 | Senior Java developer       
+ 7 | Junior JavaScript developer       
+ 8 | Middle JavaScript developer       
+ 9 | Senior JavaScript developer        
+ 10 | Junior Manual QA engineer       
+ 11 | Middle Manual QA engineer      
+ 12 | Senior Manual QA engineer      
+ 13 | Project Manager
+ 14 | Designer
+ 15 | HR
 ```sql
 create table roles(
 id  serial primary key,
