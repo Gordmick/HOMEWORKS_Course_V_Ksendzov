@@ -1,16 +1,17 @@
 ![](https://timeweb.com/ru/community/article/6a/6aec84e99f708bc438b913c3089e18ae.png)
 
-# _HOMEWORK 2 _
-## in Postgre
+# _HOMEWORK 2 SQL DDL_
+# in Postgre
 
- 1.  Вывести все поля и все строки.
-
+ ## 1.  Создать таблицу employees
+- id. serial,  primary key,
+- employee_name. Varchar(50), not null
+Наполнить таблицу employee 70 строками.
 ```sql
 create table employees(
 id serial primary key,
 employee_name varchar(50) not null
 );
-
 insert into employees (employee_name)
 values ('Ivan'),
        ('Piter'),
@@ -86,6 +87,26 @@ values ('Ivan'),
 select * from employees;
 ```
 
+## 2. Создать таблицу salary
+- id. Serial  primary key,
+- monthly_salary. Int, not null
+## Наполнить таблицу salary 15 строками:
+- 1000
+- 1100
+- 1200
+- 1300
+- 1400
+- 1500
+- 1600
+- 1700
+- 1800
+- 1900
+- 2000
+- 2100
+- 2200
+- 2300
+- 2400
+- 2500
 ```sql
 create table salary(
 id serial primary key,
@@ -112,6 +133,12 @@ values (1000),
 select * from salary;
 ```
 
+## 3. Создать таблицу employee_salary
+- id. Serial  primary key,
+- employee_id. Int, not null, unique
+- salary_id. Int, not null
+## Наполнить таблицу employee_salary 40 строками:
+- в 10 строк из 40 вставить несуществующие employee_id
 ```sql
 create table employee_salary(
 id serial primary key,
@@ -163,6 +190,12 @@ values 	(1, 10),
 select * from employee_salary;
 ```
 
+## 4. Создать таблицу roles
+- id. Serial  primary key,
+- role_name. int, not null, unique
+## Поменять тип столба role_name с int на varchar(30)
+## Наполнить таблицу roles 20 строками:
+
 ```sql
 create table roles(
 id  serial primary key,
@@ -197,7 +230,11 @@ values 	('Junior Python developer'),
 select * from roles;	
 ```
 
-
+5. Создать таблицу roles_employee
+- id. Serial  primary key,
+- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
+- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+Наполнить таблицу roles_employee 40 строками:
 ```sql
 create table roles_employee(
 id serial primary key,
