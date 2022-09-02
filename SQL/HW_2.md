@@ -153,7 +153,8 @@ select * from salary;
  9  | 26  | 4   
  10 | 16  | 1   
  11 | 33  | 7  
- 1  | 3   | 7   
+ 1  | 3   | 7 
+ ...  | ...   | ...
 
 ```sql
 create table employee_salary(
