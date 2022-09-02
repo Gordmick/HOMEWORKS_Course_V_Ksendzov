@@ -274,6 +274,21 @@ select * from roles;
 - employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
 - role_id. Int, not null (внешний ключ для таблицы roles, поле id)
 ## Наполнить таблицу roles_employee 40 строками:
+
+id     | employee_id | role_id   
+ ------ | ------ | ------   
+ 1  | 7  | 2   
+ 2  | 20 | 4   
+ 3  | 3  | 9  
+ 4  | 5  | 13   
+ 5  | 23 | 4   
+ 6  | 11 | 2   
+ 7  | 10 | 9   
+ 8  | 22 | 13   
+ 9  | 21 | 3   
+ 10 | 34 | 4   
+ 11 | 6  | 7  
+ ...  | ...   | ...
 ```sql
 create table roles_employee(
 id serial primary key,
