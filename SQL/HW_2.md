@@ -230,11 +230,11 @@ values 	('Junior Python developer'),
 select * from roles;	
 ```
 
-5. Создать таблицу roles_employee
+## 5. Создать таблицу roles_employee
 - id. Serial  primary key,
 - employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
 - role_id. Int, not null (внешний ключ для таблицы roles, поле id)
-Наполнить таблицу roles_employee 40 строками:
+## Наполнить таблицу roles_employee 40 строками:
 ```sql
 create table roles_employee(
 id serial primary key,
