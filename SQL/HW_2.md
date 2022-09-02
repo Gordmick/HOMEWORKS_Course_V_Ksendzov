@@ -140,7 +140,7 @@ select * from salary;
 ## Наполнить таблицу employee_salary 40 строками:
 - в 10 строк из 40 вставить несуществующие employee_id 
  
- id     | employee_id | salary   
+ id     | employee_id | salary_id   
  ------ | ------ | ------   
  1  | 3   | 7   
  2  | 1   | 4   
@@ -152,8 +152,7 @@ select * from salary;
  8  | 15  | 13   
  9  | 26  | 4   
  10 | 16  | 1   
- 11 | 33  | 7  
- 1  | 3   | 7 
+ 11 | 33  | 7   
  ...  | ...   | ...
 
 ```sql
