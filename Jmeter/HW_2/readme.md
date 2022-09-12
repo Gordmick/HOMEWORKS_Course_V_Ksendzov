@@ -138,3 +138,6 @@ Resp.
 или
 ![](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/screenshots/5_3.png)
 
+## Final reports
+* [Report csv](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/HW_2/HW_2.csv)
+* [Report jmx](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/HW_2/HW_2.jmx)
