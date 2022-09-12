@@ -75,6 +75,10 @@ name: str
 age: int
 salary: int
 ```
+* [Report 50 samples](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/HW_1_50_samples.csv)
+* [Report 250 samples](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/HW_1_250_samples.csv)
+* [Report 500 samples](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/HW_1_500_samples.csv)
+
 
 ![](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/screenshots/screen1.png)
 ![](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Jmeter/screenshots/screen2.png)
